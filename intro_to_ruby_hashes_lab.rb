@@ -3,7 +3,7 @@ def new_hash
   hash 
 end
 
-def actor[:name]
+def actor(name)
   
 end
 
