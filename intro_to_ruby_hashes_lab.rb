@@ -73,7 +73,10 @@ def monopoly_with_fourth_tier
     :shortline => {}
   }
   monopoly[:railroads][:names][:reading_railroad] = '$100'
-  monopoly[:railroads][:names][:pennsylvania_railroad] = '$100'
+  monopoly[:railroads][:names][:pennsylvania_railroad] = '$200'
+  monopoly[:railroads][:names][:b_and_o_railroad] = '$400'
+  monopoly[:railroads][:names][:shortline] = '$800'
+  monopoly
 end
 
 
